@@ -1,10 +1,10 @@
-# The Impact of the EU ETS on the Competitiveness and Employment of Firms in the Second Trading Period
+# Reproducibility Appendix: The Impact of the EU ETS on the Competitiveness and Employment of Firms in the Second Trading Period
 
-The project is part of my senior thesis. It intends to explore how the relative allocation of allowances in the EU ETS impact the competitveness and employment of firms covered by the EU ETS in the second trading period. This github project will go over how to extract emissions data from the European Union Community Transaction Log, how to download company-level data (NACE code, Revenue data, and No. employment data) from Orbis by Bureau van Dijk, and how to perform the empirical analysis in my senior thesis. 
+The project is a part of my senior thesis. It intends to explore how the relative allocation of allowances in the EU ETS impacted the competitveness and employment of firms covered by the EU ETS in the second trading period. This README.md file will go over the process of extracting emissions data from the European Union Community Transaction Log, downloading company-level data (NACE code, Revenue data, and No. employment data) from Orbis by Bureau van Dijk, and performing the empirical analysis in my senior thesis. 
 
 ## Getting Started
 
-Cloning the repository to your local directory using the following code:
+Cloning the repository to your local directory: 
 
 ```
 git clone https://github.com/ricardowang/carbon_emissions
@@ -12,22 +12,36 @@ git clone https://github.com/ricardowang/carbon_emissions
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Make sure you have Python downloaded and set up on your computer and the required packages installed. 
 
 ```
-Give examples
+pip install requests Scrapy
 ```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-
+If you use Python 2.x, go to [version 2](https://github.com/ricardowang/carbon_emissions/tree/master/Python%20Code/Python%202.x) to download the code for extracting emissions data. If you use Python 3.x, go to [version 3](https://github.com/ricardowang/carbon_emissions/tree/master/Python%20Code/Python%203.x) instead. 
+You can check the version of Python by running: 
 ```
-Give the example
+python --version
 ```
+
+Replace the line in the code with your working directory where you want to save the .csv files: 
+```
+directory = ''
+```
+
+Go to the directory where you put your Python script, and the run the Python script depending on the version you have downloaded: 
+```
+python emissions_data_mining_version_2.py
+```
+Or 
+```
+python emissions_data_mining_version_3.py
+```
+
+Note: due to the sheer volume of the emissions data, it might take at least two hours to download all data. 
+
 
 ## Step-by-step Guide on How to Replicate the Results
 
@@ -37,21 +51,17 @@ Give the example
 Give an example
 ```
 
-## Contributing
-
-Please read [CONTRIBUTING.md] for details on our code of conduct, and the process for submitting pull requests to us.
-
-
 ## Authors
 
-* **Haihang Wang** - *Initial work* - [Carbon_Emissions](https://github.com/ricardowang/carbon_emissions)
+* **Haihang Wang**, [University of Michigan](https://www.umich.edu), haihangw@umich.edu 
 
-See also the list of [contributors](https://github.com/ricardowang/carbon_emissions/contributors) who participated in this project.
+- *Initial work* - [carbon_emissions](https://github.com/ricardowang/carbon_emissions)
 
 
 ## Acknowledgments
 
-* I am especially grateful to my thesis advisor, Professor Kathryn Dominguez, for her invaluable suggestions and continued guidance.
-* I thank Tian Yang for his help on extracting emissions data from the European Union Community Transaction Log. 
+* I am especially grateful to my thesis advisor, [Professor Kathryn Dominguez](http://fordschool.umich.edu/faculty/kathryn-dominguez), for her helpful suggestions, invaluable advice, and continued guidance. 
+* I would like to thank [Tian Yang](https://github.com/Lion-Yang) for his generous help on extracting emissions data from the [European Union Transaction Log](http://ec.europa.eu/environment/ets/oha.do;EUROPA_JSESSIONID=j_RTOZ-CeTt2G0fWEy-OyLZ19BcvsAybo9Xsb0YOGsd4FcMzN9gC!-588220385) (EUTL). 
+* I also would like to thank Aidan Parker, Subramanian Ramanujam, Quan Du, and everyone else in Econ 495 (Section 001, Fall 2017) for their insightful comments. 
 
 
