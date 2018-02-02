@@ -48,7 +48,7 @@ Note: due to the sheer volume of the emissions data, it might take at least two 
 ### 1. Extracting emissions data from the European Union Community Transaction Log: 
 
 ```
-Give an example
+[ADD MORE]
 ```
 
 ## Authors
@@ -62,6 +62,6 @@ Give an example
 
 * I am especially grateful to my thesis advisor, [Professor Kathryn Dominguez](http://fordschool.umich.edu/faculty/kathryn-dominguez), for her helpful suggestions, invaluable advice, and continued guidance. 
 * I would like to thank [Tian Yang](https://github.com/Lion-Yang) for his generous help on extracting emissions data from the [European Union Transaction Log](http://ec.europa.eu/environment/ets/oha.do;EUROPA_JSESSIONID=j_RTOZ-CeTt2G0fWEy-OyLZ19BcvsAybo9Xsb0YOGsd4FcMzN9gC!-588220385) (EUTL). 
-* I also would like to thank Aidan Parker, Subramanian Ramanujam, Quan Du, and everyone else in Econ 495 (Section 001, Fall 2017) for their insightful comments. 
+* I also would like to thank Aidan Parker, Subramanian Ramanujam, Quan Du, and everyone else in Econ 495 (Section 001, Fall 2017) for their insightful comments.    
 
 
