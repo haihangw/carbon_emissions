@@ -1,7 +1,7 @@
 
 # Reproducibility Appendix: The Impact of the EU ETS on the Competitiveness and Employment of Firms in the Second Trading Period
 
-The project is a part of my senior [thesis](thesis/Honors-Thesis-Version-03-29-18.pdf). It intends to explore 
+The project is a part of my senior [thesis](thesis/). It intends to explore 
 how the 
 relative allocation of allowances in the EU ETS impacted the competitveness and employment of firms covered by the EU ETS in the second trading period. This README.md file will go over the process of extracting emissions data from the European Union Community Transaction Log, downloading company-level data (NACE code, Revenue data, and No. employment data) from Orbis by Bureau van Dijk, and performing the empirical analysis in my senior thesis. 
 
